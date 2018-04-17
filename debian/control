@@ -1,0 +1,12 @@
+Source: ros-kinetic-prosilica-camera
+Section: misc
+Priority: extra
+Maintainer: Austin Hendrix <namniart@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-camera-calibration-parsers, ros-kinetic-catkin, ros-kinetic-diagnostic-msgs, ros-kinetic-diagnostic-updater, ros-kinetic-driver-base, ros-kinetic-dynamic-reconfigure, ros-kinetic-image-transport, ros-kinetic-polled-camera, ros-kinetic-prosilica-gige-sdk, ros-kinetic-rosconsole, ros-kinetic-roscpp, ros-kinetic-self-test, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs
+Homepage: http://www.ros.org/wiki/prosilica_camera
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-prosilica-camera
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-camera-calibration-parsers, ros-kinetic-diagnostic-msgs, ros-kinetic-diagnostic-updater, ros-kinetic-driver-base, ros-kinetic-dynamic-reconfigure, ros-kinetic-image-transport, ros-kinetic-polled-camera, ros-kinetic-prosilica-gige-sdk, ros-kinetic-roscpp, ros-kinetic-self-test, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs
+Description: A ROS driver node for AVT/Prosilica Gigabit Ethernet (GigE) cameras.
