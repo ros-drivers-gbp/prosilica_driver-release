@@ -1,0 +1,12 @@
+Source: ros-melodic-prosilica-camera
+Section: misc
+Priority: extra
+Maintainer: Austin Hendrix <namniart@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-camera-calibration-parsers, ros-melodic-catkin, ros-melodic-diagnostic-msgs, ros-melodic-diagnostic-updater, ros-melodic-driver-base, ros-melodic-dynamic-reconfigure, ros-melodic-image-transport, ros-melodic-polled-camera, ros-melodic-prosilica-gige-sdk, ros-melodic-rosconsole, ros-melodic-roscpp, ros-melodic-self-test, ros-melodic-sensor-msgs, ros-melodic-std-msgs
+Homepage: http://www.ros.org/wiki/prosilica_camera
+Standards-Version: 3.9.2
+
+Package: ros-melodic-prosilica-camera
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-camera-calibration-parsers, ros-melodic-diagnostic-msgs, ros-melodic-diagnostic-updater, ros-melodic-driver-base, ros-melodic-dynamic-reconfigure, ros-melodic-image-transport, ros-melodic-polled-camera, ros-melodic-prosilica-gige-sdk, ros-melodic-roscpp, ros-melodic-self-test, ros-melodic-sensor-msgs, ros-melodic-std-msgs
+Description: A ROS driver node for AVT/Prosilica Gigabit Ethernet (GigE) cameras.
