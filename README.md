@@ -1,3 +1,26 @@
+## prosilica_driver (noetic) - 1.9.5-1
+
+The packages in the `prosilica_driver` repository were released into the `noetic` distro by running `/usr/bin/bloom-release prosilica_driver --rosdistro noetic --track noetic` on `Tue, 23 Mar 2021 23:26:27 -0000`
+
+The `prosilica_camera` package was released.
+
+Version of package(s) in repository `prosilica_driver`:
+
+- upstream repository: https://github.com/ros-drivers/prosilica_driver.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.9.5-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.2`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## prosilica_driver (melodic) - 1.9.4-1
 
 The packages in the `prosilica_driver` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --ros-distro melodic --track melodic prosilica_driver --edit` on `Sat, 27 Apr 2019 00:05:46 -0000`
