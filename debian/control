@@ -1,0 +1,12 @@
+Source: ros-noetic-prosilica-camera
+Section: misc
+Priority: optional
+Maintainer: Austin Hendrix <namniart@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-camera-calibration-parsers, ros-noetic-catkin, ros-noetic-diagnostic-msgs, ros-noetic-diagnostic-updater, ros-noetic-dynamic-reconfigure, ros-noetic-image-transport, ros-noetic-nodelet, ros-noetic-nodelet-topic-tools, ros-noetic-polled-camera, ros-noetic-prosilica-gige-sdk, ros-noetic-rosconsole, ros-noetic-roscpp, ros-noetic-self-test, ros-noetic-sensor-msgs, ros-noetic-std-msgs
+Homepage: http://www.ros.org/wiki/prosilica_camera
+Standards-Version: 3.9.2
+
+Package: ros-noetic-prosilica-camera
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-camera-calibration-parsers, ros-noetic-diagnostic-msgs, ros-noetic-diagnostic-updater, ros-noetic-dynamic-reconfigure, ros-noetic-image-transport, ros-noetic-nodelet, ros-noetic-nodelet-topic-tools, ros-noetic-polled-camera, ros-noetic-prosilica-gige-sdk, ros-noetic-roscpp, ros-noetic-self-test, ros-noetic-sensor-msgs, ros-noetic-std-msgs
+Description: A ROS driver node for AVT/Prosilica Gigabit Ethernet (GigE) cameras.
